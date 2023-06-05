@@ -1,0 +1,11 @@
+framework module Growlytics {
+  umbrella header "Growlytics.h"
+
+  export *
+  module * { export * }
+}
+
+module Growlytics.Swift {
+  header "Growlytics-Swift.h"
+  requires objc
+}

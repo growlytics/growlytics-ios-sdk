@@ -1,0 +1,117 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Growlytics
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreData
+import CoreTelephony
+import Foundation
+@_exported import Growlytics
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class Analytics {
+  public static func getInstance() -> Growlytics.Analytics
+  public func track(eventName: Swift.String)
+  public func trackAppInstalled()
+  public func track(_ eventName: Swift.String, _ eventAttributes: [Swift.String : Any]?)
+  public func identify(_ profileAttributes: [Swift.String : Any]?)
+  public func identify(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func loginUser(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func logoutUser()
+  public func updateCustomer(_ customerAttributes: [Swift.String : Any]?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GrwNotification {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(NewSession) public class NewSession : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Growlytics.NewSession {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc(CustomerAttributes) public class CustomerAttributes : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(LoginInfo) public class LoginInfo : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Growlytics.LoginInfo {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+@objc @_inheritsConvenienceInitializers public class LifeCycleCallback : ObjectiveC.NSObject {
+  public static let shared: Growlytics.LifeCycleCallback
+  @available(iOS 13.0, *)
+  public func register(scene: UIKit.UIScene)
+  public func register(application: UIKit.UIApplication)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class APNSMessagingService : ObjectiveC.NSObject {
+  public static let shared: Growlytics.APNSMessagingService
+  public func setupAPNSMessagingWith(_ deviceToken: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+@_inheritsConvenienceInitializers @objc(LogoutInfo) public class LogoutInfo : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Growlytics.CustomerAttributes {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension Growlytics.LogoutInfo {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
