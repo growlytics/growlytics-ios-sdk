@@ -3280,8 +3280,8 @@
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Config.swift",
       "kind": "StringLiteral",
       "offset": 497,
-      "length": 55,
-      "value": "\"https:\/\/dcq-india-region-prod-u2u533qbxa-as.a.run.app\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Models\/File.swift",
@@ -4617,244 +4617,244 @@
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 879,
-      "length": 19,
-      "value": "\"GLYTICS_TEST_MODE\""
+      "length": 22,
+      "value": "\"GROWLYTICS_TEST_MODE\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 948,
       "length": 21,
       "value": "\"GROWLYTICS_DISABLED\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 1016,
       "length": 18,
       "value": "\"GROWLYTICS_DEBUG\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
+      "offset": 1081,
       "length": 17,
       "value": "\"GROWLYTICS_HOST\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
+      "offset": 1145,
       "length": 30,
       "value": "\"GROWLYTICS_NOTIFICATION_ICON\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1250,
+      "offset": 1253,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1296,
+      "offset": 1299,
       "length": 3,
       "value": "512"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1342,
+      "offset": 1345,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1424,
+      "offset": 1427,
       "length": 15,
       "value": "\"FCM_SENDER_ID\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1524,
+      "offset": 1527,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1531,
+      "offset": 1534,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1536,
+      "offset": 1539,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1541,
+      "offset": 1544,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1546,
+      "offset": 1549,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1598,
+      "offset": 1601,
       "length": 13,
       "value": "\"glytcs_btns\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1665,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 1722,
       "length": 5,
       "value": "\"max\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1778,
       "length": 10,
       "value": "\"wzrk_ttl\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1839,
       "length": 17,
       "value": "\"glytcs_clk_done\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1920,
       "length": 11,
       "value": "\"AppLaunch\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 1966,
       "length": 13,
       "value": "\"CustomEvent\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 2014,
       "length": 18,
       "value": "\"IdentifyCustomer\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2067,
       "length": 10,
       "value": "\"NewToken\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2112,
       "length": 14,
       "value": "\"AppInstalled\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2161,
       "length": 24,
       "value": "\"NotificationImpression\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2220,
       "length": 21,
       "value": "\"NotificationClicked\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2273,
+      "offset": 2276,
       "length": 20,
       "value": "\"DeviceRegistration\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1920,
       "length": 11,
       "value": "\"AppLaunch\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 1966,
       "length": 13,
       "value": "\"CustomEvent\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 2014,
       "length": 18,
       "value": "\"IdentifyCustomer\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2067,
       "length": 10,
       "value": "\"NewToken\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2112,
       "length": 14,
       "value": "\"AppInstalled\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2161,
       "length": 24,
       "value": "\"NotificationImpression\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2220,
       "length": 21,
       "value": "\"NotificationClicked\""
     },
     {
       "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2273,
+      "offset": 2276,
       "length": 20,
       "value": "\"DeviceRegistration\""
     }

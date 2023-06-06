@@ -37,7 +37,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			brDI1wROlRCRzwhxjk3wkgQKHXXNEpb9YDmfT+Xcidk=
+			1Xo6OOKV9AQ4yVV6Vti9zVyDkctNwlg0x9OFejKPyWA=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Ton+xpzv+0y1xW+yEfFbMU69iN6pXCo89GUXfNUhPo=
+			RS7GGTLZm0at4mA7YPvi8AWMkERhwvitoXthaXIcd5Y=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			brDI1wROlRCRzwhxjk3wkgQKHXXNEpb9YDmfT+Xcidk=
+			1Xo6OOKV9AQ4yVV6Vti9zVyDkctNwlg0x9OFejKPyWA=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YBKDvqbN5gV56pIMRnbCcgXIXwX1oDn129q0pskXQHs=
+			x2eIiEIan2E80U73TdcgVIf+x59P4BL7c8RFvRGlCPk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
