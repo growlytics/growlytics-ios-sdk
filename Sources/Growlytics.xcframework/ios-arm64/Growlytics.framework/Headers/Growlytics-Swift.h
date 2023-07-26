@@ -262,6 +262,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreData;
 @import ObjectiveC;
+@import UIKit;
+@import UserNotifications;
+@import UserNotificationsUI;
 #endif
 
 #endif
@@ -283,12 +286,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC10Growlytics20APNSMessagingService")
-@interface APNSMessagingService : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
@@ -303,6 +300,46 @@ SWIFT_CLASS_NAMED("CustomerAttributes")
 @property (nonatomic) int64_t created_at;
 @property (nonatomic, copy) NSString * _Nullable data;
 @property (nonatomic, copy) NSString * _Nullable id;
+@end
+
+
+SWIFT_CLASS("_TtC10Growlytics26GrowlyticsMessagingService")
+@interface GrowlyticsMessagingService : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface GrowlyticsMessagingService (SWIFT_EXTENSION(Growlytics)) <UNUserNotificationCenterDelegate>
+@end
+
+@class UNNotificationRequest;
+@class UNNotificationContent;
+
+SWIFT_CLASS("_TtC10Growlytics22GrwNotificationService")
+@interface GrwNotificationService : UNNotificationServiceExtension
+- (void)didReceiveNotificationRequest:(UNNotificationRequest * _Nonnull)request withContentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
+- (void)serviceExtensionTimeWillExpire;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Growlytics31GrwNotificationServiceExtension")
+@interface GrwNotificationServiceExtension : UNNotificationServiceExtension
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UNNotification;
+@class UNNotificationResponse;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC10Growlytics29GrwNotificationViewController")
+@interface GrwNotificationViewController : UIViewController <UNNotificationContentExtension>
+- (void)viewDidLoad;
+- (void)didReceiveNotification:(UNNotification * _Nonnull)notification;
+- (void)didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response completionHandler:(void (^ _Nonnull)(UNNotificationContentExtensionResponseOption))completion;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -347,6 +384,32 @@ SWIFT_CLASS_NAMED("NewSession")
 
 
 @interface NewSession (SWIFT_EXTENSION(Growlytics))
+@property (nonatomic) int64_t created_at;
+@property (nonatomic, copy) NSString * _Nullable data;
+@property (nonatomic, copy) NSString * _Nullable id;
+@end
+
+
+SWIFT_CLASS_NAMED("NotificationResponse")
+@interface NotificationResponse : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NotificationResponse (SWIFT_EXTENSION(Growlytics))
+@property (nonatomic) int64_t created_at;
+@property (nonatomic, copy) NSString * _Nullable data;
+@property (nonatomic, copy) NSString * _Nullable id;
+@end
+
+
+SWIFT_CLASS_NAMED("SavePush")
+@interface SavePush : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface SavePush (SWIFT_EXTENSION(Growlytics))
 @property (nonatomic) int64_t created_at;
 @property (nonatomic, copy) NSString * _Nullable data;
 @property (nonatomic, copy) NSString * _Nullable id;

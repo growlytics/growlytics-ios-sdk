@@ -6,15 +6,15 @@
 	<dict>
 		<key>Growlytics.momd/Growlytics.mom</key>
 		<data>
-		88feRH/ktgPWxWlxbpYF5J13U9U=
+		VNx+X5BXI78/8Gx8TCXC8qBIgSE=
 		</data>
 		<key>Growlytics.momd/VersionInfo.plist</key>
 		<data>
-		9FTf1+JA3CxcUhMMLtxIZloDiZI=
+		Jsp/snpUa98GHbCmB41rWGXJvlY=
 		</data>
 		<key>Headers/Growlytics-Swift.h</key>
 		<data>
-		HQM9UBghcDZJ4EYIEJxDzXA21og=
+		gecpONsNGgHLIP6NCZouoLVKeew=
 		</data>
 		<key>Headers/Growlytics.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Hb5zbJ7bt8/UXkrt/PABrERuzM0=
+		BdFo/TJHbRt8maoBDVFGFTKlgjI=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Y8eaQrosrTD5zKS7CO4BT68snI8=
+		+vxOfT93JcSvFN+M27LaJDCyZ6o=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Y8eaQrosrTD5zKS7CO4BT68snI8=
+		+vxOfT93JcSvFN+M27LaJDCyZ6o=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IdLhuarUqHzTJfFdixgdhX20d24=
+		u1YtoVQoaLhGOPCix/ivglQJrfc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,21 +55,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UESA1mBCY454q1ekxavlv81lM1ZllbDhDLjqzLVETAI=
+			+muPZlXdMZUVjGmZ9FE7A1rJy2VGaLeGK2G+B31m92A=
 			</data>
 		</dict>
 		<key>Growlytics.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mqoDJIjeGS33+7a5zobWUWZbYiE13q2n/2t5GyIXi7A=
+			Yc7eGktDlt1/wjeI5uj9hhx9uvoWvVCFtrmhdNXrt0E=
 			</data>
 		</dict>
 		<key>Headers/Growlytics-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kOLMZlgBnVcLUHAeKMDx2mmnwdUL4ol4kJc5dYqKr6U=
+			0EMF3mtzLn4jw8XQcI4FxyDtER5QOoHNhoD0ZpM8KiU=
 			</data>
 		</dict>
 		<key>Headers/Growlytics.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OA9YTQh2AJ6/BuYuqcznnt8cHLbDI7jSi7tgez1y0jM=
+			pqsRvXiS5v8O03RrztjcqGOAuKG1p0AtVm2Qxa2/W3c=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3SDJk7/p/vewcKqb9NONWd2KdERTLDS6i+kmM3NFVI=
+			E4xOvKiMnYywqD91LpjlEwbLz6jbW89WAiCr2h6Dp9U=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3SDJk7/p/vewcKqb9NONWd2KdERTLDS6i+kmM3NFVI=
+			E4xOvKiMnYywqD91LpjlEwbLz6jbW89WAiCr2h6Dp9U=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4FbIEp+3BhTMPsNG1zsOkjgaRse4yx+zwz3aRWRSAA=
+			a1YrbSdnk3FTs0Yq4kSp2YBPrP77CChlBzU/6XZ9SJI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

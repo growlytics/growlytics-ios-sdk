@@ -9,50 +9,15 @@ import Foundation
 import Swift
 import SystemConfiguration
 import UIKit
+import UserNotifications
+import UserNotificationsUI
 import _Concurrency
 import _StringProcessing
-@_hasMissingDesignatedInitializers public class Analytics {
-  public static func getInstance() -> Growlytics.Analytics
-  public func track(eventName: Swift.String)
-  public func trackAppInstalled()
-  public func track(_ eventName: Swift.String, _ eventAttributes: [Swift.String : Any]?)
-  public func identify(_ profileAttributes: [Swift.String : Any]?)
-  public func identify(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
-  public func loginUser(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
-  public func logoutUser()
-  public func updateCustomer(_ customerAttributes: [Swift.String : Any]?)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class GrwNotification {
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc(NewSession) public class NewSession : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
 extension Growlytics.NewSession {
-  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var data: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var id: Swift.String? {
-    @objc get
-    @objc set
-  }
-}
-@_inheritsConvenienceInitializers @objc(CustomerAttributes) public class CustomerAttributes : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc(LoginInfo) public class LoginInfo : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
-extension Growlytics.LoginInfo {
   @objc @NSManaged dynamic public var created_at: Swift.Int64 {
     @objc get
     @objc set
@@ -74,17 +39,102 @@ extension Growlytics.LoginInfo {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class APNSMessagingService : ObjectiveC.NSObject {
-  public static let shared: Growlytics.APNSMessagingService
-  public func setupAPNSMessagingWith(_ deviceToken: Swift.String)
+extension Growlytics.NotificationResponse {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc(CustomerAttributes) public class CustomerAttributes : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(LoginInfo) public class LoginInfo : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class GrwNotificationService : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic open func serviceExtensionTimeWillExpire()
   @objc override dynamic public init()
   @objc deinit
+}
+extension Growlytics.LoginInfo {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class GrwNotificationViewController : UIKit.UIViewController, UserNotificationsUI.UNNotificationContentExtension {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc open func didReceive(_ notification: UserNotifications.UNNotification)
+  @_Concurrency.MainActor(unsafe) @objc open func didReceive(_ response: UserNotifications.UNNotificationResponse, completionHandler completion: @escaping (UserNotificationsUI.UNNotificationContentExtensionResponseOption) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc(LogoutInfo) public class LogoutInfo : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Growlytics.SavePush {
+  @objc @NSManaged dynamic public var created_at: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+public protocol NotificatioDataSendingDelegateProtocol {
+  func sendNotificationDataToAppDelegate(kvPair: [[Swift.String : Any]], screenName: Swift.String, action: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class GrowlyticsMessagingService : ObjectiveC.NSObject {
+  public static let shared: Growlytics.GrowlyticsMessagingService
+  public var delegate: (any Growlytics.NotificatioDataSendingDelegateProtocol)?
+  public func setPushToken(_ deviceToken: Swift.String)
+  public func didFailToRegisterForPush()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Growlytics.GrowlyticsMessagingService : UserNotifications.UNUserNotificationCenterDelegate {
+  public func didReceiveNotificationResponse(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse)
+}
+@_hasMissingDesignatedInitializers public class Analytics {
+  public static func getInstance() -> Growlytics.Analytics
+  public func track(eventName: Swift.String)
+  public func trackAppInstalled()
+  public func trackNotificationReport(action: Swift.String, notificationResponse: [Swift.String : Any])
+  public func track(_ eventName: Swift.String, _ eventAttributes: [Swift.String : Any]?)
+  public func identify(_ profileAttributes: [Swift.String : Any]?)
+  public func identify(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func loginUser(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func logoutUser()
+  public func updateCustomer(_ customerAttributes: [Swift.String : Any]?)
   @objc deinit
 }
 extension Growlytics.CustomerAttributes {
@@ -101,6 +151,76 @@ extension Growlytics.CustomerAttributes {
     @objc set
   }
 }
+final public class GrwNotification {
+  public init(_ remoteInfo: [Swift.String : Any])
+  final public func getTrackingId() -> Swift.String
+  final public func getDeepLink() -> Swift.String
+  final public func getTtl() -> Swift.String
+  final public func isDoRender() -> Swift.Bool
+  final public func getActionButtons() -> [Growlytics.GrwNotificationAction]?
+  final public func getSmallIconColor() -> Swift.String
+  final public func getPriority() -> Swift.String
+  final public func getData() -> [Swift.String : Any]
+  final public func getNotifiaticationChannel() -> Swift.String
+  final public func getTitle() -> Swift.String
+  final public func getSubTitle() -> Swift.String
+  final public func getMessage() -> Swift.String
+  final public func getImageLink() -> Swift.String
+  final public func getButton() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GrwNotificationAction : Swift.Codable {
+  public var label: Swift.String!
+  public var deeplinkUrl: Swift.String?
+  public var index: Swift.Int?
+  public var id: Swift.Int?
+  public var actionId: Swift.String!
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+final public class GrowlyticsData {
+  public init(_ growlyticsData: [Swift.String : Any])
+  final public func getMedia() -> Growlytics.Media
+  final public func getClick() -> Growlytics.Click
+  final public func getKvData() -> [[Swift.String : Any]]
+  final public func getDeliveryData() -> Growlytics.DeliveryReport
+  @objc deinit
+}
+final public class Click {
+  public init(_ clickData: [Swift.String : Any])
+  final public func getAction() -> Swift.String
+  final public func getUrl() -> Swift.String
+  final public func getDeepLink() -> Swift.String
+  final public func getScreen() -> Swift.String
+  @objc deinit
+}
+final public class Media {
+  public init(_ mediaData: [Swift.String : Any])
+  final public func getImage() -> Swift.String
+  @objc deinit
+}
+final public class KVPair {
+  public init(_ kvData: [Swift.String : Any])
+  final public func getKey() -> Swift.String
+  final public func getValue() -> Swift.String
+  @objc deinit
+}
+final public class DeliveryReport {
+  public init(_ deliveryData: [Swift.String : Any])
+  final public func getUrl() -> Swift.String
+  final public func getInfo() -> [Swift.String : Any]
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SavePush) public class SavePush : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class GrwNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
+  open class func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
 extension Growlytics.LogoutInfo {
   @objc @NSManaged dynamic public var created_at: Swift.Int64 {
     @objc get
@@ -114,4 +234,8 @@ extension Growlytics.LogoutInfo {
     @objc get
     @objc set
   }
+}
+@_inheritsConvenienceInitializers @objc(NotificationResponse) public class NotificationResponse : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
 }
