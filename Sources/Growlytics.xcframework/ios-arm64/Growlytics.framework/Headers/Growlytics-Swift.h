@@ -303,6 +303,12 @@ SWIFT_CLASS_NAMED("CustomerAttributes")
 @end
 
 
+SWIFT_CLASS("_TtC10Growlytics18GrowlyticsCallback")
+@interface GrowlyticsCallback : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10Growlytics26GrowlyticsMessagingService")
 @interface GrowlyticsMessagingService : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -340,12 +346,6 @@ SWIFT_CLASS("_TtC10Growlytics29GrwNotificationViewController")
 - (void)didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response completionHandler:(void (^ _Nonnull)(UNNotificationContentExtensionResponseOption))completion;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10Growlytics17LifeCycleCallback")
-@interface LifeCycleCallback : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

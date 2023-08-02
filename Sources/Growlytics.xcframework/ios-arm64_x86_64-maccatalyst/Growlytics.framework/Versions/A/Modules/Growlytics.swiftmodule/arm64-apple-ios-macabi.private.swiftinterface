@@ -31,14 +31,6 @@ extension Growlytics.NewSession {
     @objc set
   }
 }
-@objc @_inheritsConvenienceInitializers public class LifeCycleCallback : ObjectiveC.NSObject {
-  public static let shared: Growlytics.LifeCycleCallback
-  @available(iOS 13.0, *)
-  public func register(scene: UIKit.UIScene)
-  public func register(application: UIKit.UIApplication)
-  @objc override dynamic public init()
-  @objc deinit
-}
 extension Growlytics.NotificationResponse {
   @objc @NSManaged dynamic public var created_at: Swift.Int64 {
     @objc get
@@ -53,12 +45,33 @@ extension Growlytics.NotificationResponse {
     @objc set
   }
 }
+@objc @_inheritsConvenienceInitializers public class GrowlyticsCallback : ObjectiveC.NSObject {
+  public static let shared: Growlytics.GrowlyticsCallback
+  @available(iOS 13.0, *)
+  public func register(scene: UIKit.UIScene)
+  public func register(application: UIKit.UIApplication)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc(CustomerAttributes) public class CustomerAttributes : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(LoginInfo) public class LoginInfo : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GrowAnalytics {
+  public static func getInstance() -> Growlytics.GrowAnalytics
+  public func track(eventName: Swift.String)
+  public func trackAppInstalled()
+  public func trackNotificationReport(action: Swift.String, notificationResponse: [Swift.String : Any])
+  public func track(_ eventName: Swift.String, _ eventAttributes: [Swift.String : Any]?)
+  public func identify(_ profileAttributes: [Swift.String : Any]?)
+  public func identify(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func loginUser(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
+  public func logoutUser()
+  public func updateCustomer(_ customerAttributes: [Swift.String : Any]?)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class GrwNotificationService : UserNotifications.UNNotificationServiceExtension {
@@ -116,26 +129,13 @@ public protocol NotificatioDataSendingDelegateProtocol {
 @objc @_inheritsConvenienceInitializers public class GrowlyticsMessagingService : ObjectiveC.NSObject {
   public static let shared: Growlytics.GrowlyticsMessagingService
   public var delegate: (any Growlytics.NotificatioDataSendingDelegateProtocol)?
-  public func setPushToken(_ deviceToken: Swift.String)
+  public func setPushToken(_ deviceToken: Foundation.Data)
   public func didFailToRegisterForPush()
   @objc override dynamic public init()
   @objc deinit
 }
 extension Growlytics.GrowlyticsMessagingService : UserNotifications.UNUserNotificationCenterDelegate {
   public func didReceiveNotificationResponse(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse)
-}
-@_hasMissingDesignatedInitializers public class Analytics {
-  public static func getInstance() -> Growlytics.Analytics
-  public func track(eventName: Swift.String)
-  public func trackAppInstalled()
-  public func trackNotificationReport(action: Swift.String, notificationResponse: [Swift.String : Any])
-  public func track(_ eventName: Swift.String, _ eventAttributes: [Swift.String : Any]?)
-  public func identify(_ profileAttributes: [Swift.String : Any]?)
-  public func identify(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
-  public func loginUser(_ uniqueCustomerId: Swift.String?, _ profileAttributes: [Swift.String : Any]?)
-  public func logoutUser()
-  public func updateCustomer(_ customerAttributes: [Swift.String : Any]?)
-  @objc deinit
 }
 extension Growlytics.CustomerAttributes {
   @objc @NSManaged dynamic public var created_at: Swift.Int64 {

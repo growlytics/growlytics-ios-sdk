@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/Growlytics-Swift.h</key>
 		<data>
-		ytoErC3PWM1XftxOC90mXCL+te0=
+		S3bXiUBNkrn7EsAjjx5KVjKo+hw=
 		</data>
 		<key>Headers/Growlytics.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BdFo/TJHbRt8maoBDVFGFTKlgjI=
+		m8Rm4iYtaOD1nc6M6NOeVEbnX9o=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fYTkxRu1pSj3pCnhWboq0RXITQM=
+		/sC+8MbgRkzB/O1a6gauuhaCKDw=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fYTkxRu1pSj3pCnhWboq0RXITQM=
+		/sC+8MbgRkzB/O1a6gauuhaCKDw=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		li2Eee6qV2/o3W+8pgsKeRn+pik=
+		b/M/ANtwGT8FVPSIlpVd+hwVVK8=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BdFo/TJHbRt8maoBDVFGFTKlgjI=
+		m8Rm4iYtaOD1nc6M6NOeVEbnX9o=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ivGAmeDA9QN3I3eL6iJityQvxgg=
+		rpqPKJ0Y1LhLq4C+3GIsNsH2LlA=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ivGAmeDA9QN3I3eL6iJityQvxgg=
+		rpqPKJ0Y1LhLq4C+3GIsNsH2LlA=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oHufvGfr5rtZk6JQtGOlpMZxrCg=
+		7sDdZugAvBL6k0nZbEesiptYS4c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejjrpWdYbXohWI+BkLjCZR2xylx8f8B6EPPCNGdwlHc=
+			KJvsrDtGreQZlxl2G2tJoMclJWUsd3z8TLZsfYguZag=
 			</data>
 		</dict>
 		<key>Headers/Growlytics.h</key>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqsRvXiS5v8O03RrztjcqGOAuKG1p0AtVm2Qxa2/W3c=
+			OWEMBXXmDj9ddtdj9ZnLJIZjYlDa5kH16/t6VtpfTso=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aoA8ng3s/GREMrZugCZ8wlRdttbj7l2okGs0aTMKMXM=
+			QhfEYE16Wh3qAZfaDBSrO7vajfW+cuFm1LJCg3pzdxk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aoA8ng3s/GREMrZugCZ8wlRdttbj7l2okGs0aTMKMXM=
+			QhfEYE16Wh3qAZfaDBSrO7vajfW+cuFm1LJCg3pzdxk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DicbiQTEzmvvfNaIgxE7Z4ZRZzj+A0RrNZ1N9BgsM7g=
+			xsYbAgYpky1iivJwja44sR4ZbSsgSmrFjMU4HKItrM0=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqsRvXiS5v8O03RrztjcqGOAuKG1p0AtVm2Qxa2/W3c=
+			OWEMBXXmDj9ddtdj9ZnLJIZjYlDa5kH16/t6VtpfTso=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ofx7mRaVex/52u387XBjaatWldQTIwFJR09/aVYWBAM=
+			qVciSiI/+rGln7hTjW7gLNZF31/1ijIxa+US8Nrm7x8=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ofx7mRaVex/52u387XBjaatWldQTIwFJR09/aVYWBAM=
+			qVciSiI/+rGln7hTjW7gLNZF31/1ijIxa+US8Nrm7x8=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z9iyXFV0thNSAm6t5DtUwyGbw87QtjMe50InPSPRc1o=
+			c86XNVtc16mGEnD+Pkjx+s2kQquAfK9xiv+osMwp1gk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
