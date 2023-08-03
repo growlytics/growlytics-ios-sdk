@@ -561,8 +561,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GrowlyticsCallback",
-        "printedName": "GrowlyticsCallback",
+        "name": "GrowlyticsLifeCycleCallback",
+        "printedName": "GrowlyticsLifeCycleCallback",
         "children": [
           {
             "kind": "Var",
@@ -571,14 +571,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GrowlyticsCallback",
-                "printedName": "Growlytics.GrowlyticsCallback",
-                "usr": "c:@M@Growlytics@objc(cs)GrowlyticsCallback"
+                "name": "GrowlyticsLifeCycleCallback",
+                "printedName": "Growlytics.GrowlyticsLifeCycleCallback",
+                "usr": "c:@M@Growlytics@objc(cs)GrowlyticsLifeCycleCallback"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10Growlytics0A8CallbackC6sharedACvpZ",
-            "mangledName": "$s10Growlytics0A8CallbackC6sharedACvpZ",
+            "usr": "s:10Growlytics0A17LifeCycleCallbackC6sharedACvpZ",
+            "mangledName": "$s10Growlytics0A17LifeCycleCallbackC6sharedACvpZ",
             "moduleName": "Growlytics",
             "static": true,
             "declAttributes": [
@@ -597,14 +597,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GrowlyticsCallback",
-                    "printedName": "Growlytics.GrowlyticsCallback",
-                    "usr": "c:@M@Growlytics@objc(cs)GrowlyticsCallback"
+                    "name": "GrowlyticsLifeCycleCallback",
+                    "printedName": "Growlytics.GrowlyticsLifeCycleCallback",
+                    "usr": "c:@M@Growlytics@objc(cs)GrowlyticsLifeCycleCallback"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10Growlytics0A8CallbackC6sharedACvgZ",
-                "mangledName": "$s10Growlytics0A8CallbackC6sharedACvgZ",
+                "usr": "s:10Growlytics0A17LifeCycleCallbackC6sharedACvgZ",
+                "mangledName": "$s10Growlytics0A17LifeCycleCallbackC6sharedACvgZ",
                 "moduleName": "Growlytics",
                 "static": true,
                 "implicit": true,
@@ -633,8 +633,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics0A8CallbackC8register5sceneySo7UISceneC_tF",
-            "mangledName": "$s10Growlytics0A8CallbackC8register5sceneySo7UISceneC_tF",
+            "usr": "s:10Growlytics0A17LifeCycleCallbackC8register5sceneySo7UISceneC_tF",
+            "mangledName": "$s10Growlytics0A17LifeCycleCallbackC8register5sceneySo7UISceneC_tF",
             "moduleName": "Growlytics",
             "intro_iOS": "13.0",
             "declAttributes": [
@@ -661,8 +661,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics0A8CallbackC8register11applicationySo13UIApplicationC_tF",
-            "mangledName": "$s10Growlytics0A8CallbackC8register11applicationySo13UIApplicationC_tF",
+            "usr": "s:10Growlytics0A17LifeCycleCallbackC8register11applicationySo13UIApplicationC_tF",
+            "mangledName": "$s10Growlytics0A17LifeCycleCallbackC8register11applicationySo13UIApplicationC_tF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl"
@@ -676,14 +676,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GrowlyticsCallback",
-                "printedName": "Growlytics.GrowlyticsCallback",
-                "usr": "c:@M@Growlytics@objc(cs)GrowlyticsCallback"
+                "name": "GrowlyticsLifeCycleCallback",
+                "printedName": "Growlytics.GrowlyticsLifeCycleCallback",
+                "usr": "c:@M@Growlytics@objc(cs)GrowlyticsLifeCycleCallback"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Growlytics@objc(cs)GrowlyticsCallback(im)init",
-            "mangledName": "$s10Growlytics0A8CallbackCACycfc",
+            "usr": "c:@M@Growlytics@objc(cs)GrowlyticsLifeCycleCallback(im)init",
+            "mangledName": "$s10Growlytics0A17LifeCycleCallbackCACycfc",
             "moduleName": "Growlytics",
             "overriding": true,
             "implicit": true,
@@ -697,8 +697,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Growlytics@objc(cs)GrowlyticsCallback",
-        "mangledName": "$s10Growlytics0A8CallbackC",
+        "usr": "c:@M@Growlytics@objc(cs)GrowlyticsLifeCycleCallback",
+        "mangledName": "$s10Growlytics0A17LifeCycleCallbackC",
         "moduleName": "Growlytics",
         "declAttributes": [
           "AccessControl",
@@ -1753,8 +1753,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GrowAnalytics",
-        "printedName": "GrowAnalytics",
+        "name": "GrowlyticsSdk",
+        "printedName": "GrowlyticsSdk",
         "children": [
           {
             "kind": "Function",
@@ -1763,14 +1763,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GrowAnalytics",
-                "printedName": "Growlytics.GrowAnalytics",
-                "usr": "s:10Growlytics13GrowAnalyticsC"
+                "name": "GrowlyticsSdk",
+                "printedName": "Growlytics.GrowlyticsSdk",
+                "usr": "s:10Growlytics0A3SdkC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC11getInstanceACyFZ",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC11getInstanceACyFZ",
+            "usr": "s:10Growlytics0A3SdkC11getInstanceACyFZ",
+            "mangledName": "$s10Growlytics0A3SdkC11getInstanceACyFZ",
             "moduleName": "Growlytics",
             "static": true,
             "declAttributes": [
@@ -1797,8 +1797,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC5track9eventNameySS_tF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC5track9eventNameySS_tF",
+            "usr": "s:10Growlytics0A3SdkC5track9eventNameySS_tF",
+            "mangledName": "$s10Growlytics0A3SdkC5track9eventNameySS_tF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl",
@@ -1818,8 +1818,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC17trackAppInstalledyyF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC17trackAppInstalledyyF",
+            "usr": "s:10Growlytics0A3SdkC17trackAppInstalledyyF",
+            "mangledName": "$s10Growlytics0A3SdkC17trackAppInstalledyyF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl"
@@ -1863,8 +1863,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC23trackNotificationReport6action20notificationResponseySS_SDySSypGtF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC23trackNotificationReport6action20notificationResponseySS_SDySSypGtF",
+            "usr": "s:10Growlytics0A3SdkC23trackNotificationReport6action20notificationResponseySS_SDySSypGtF",
+            "mangledName": "$s10Growlytics0A3SdkC23trackNotificationReport6action20notificationResponseySS_SDySSypGtF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl"
@@ -1916,8 +1916,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC5trackyySS_SDySSypGSgtF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC5trackyySS_SDySSypGSgtF",
+            "usr": "s:10Growlytics0A3SdkC5trackyySS_SDySSypGSgtF",
+            "mangledName": "$s10Growlytics0A3SdkC5trackyySS_SDySSypGSgtF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl",
@@ -1964,8 +1964,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC8identifyyySDySSypGSgF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC8identifyyySDySSypGSgF",
+            "usr": "s:10Growlytics0A3SdkC8identifyyySDySSypGSgF",
+            "mangledName": "$s10Growlytics0A3SdkC8identifyyySDySSypGSgF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl"
@@ -2025,8 +2025,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC8identifyyySSSg_SDySSypGSgtF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC8identifyyySSSg_SDySSypGSgtF",
+            "usr": "s:10Growlytics0A3SdkC8identifyyySSSg_SDySSypGSgtF",
+            "mangledName": "$s10Growlytics0A3SdkC8identifyyySSSg_SDySSypGSgtF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl"
@@ -2086,8 +2086,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC9loginUseryySSSg_SDySSypGSgtF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC9loginUseryySSSg_SDySSypGSgtF",
+            "usr": "s:10Growlytics0A3SdkC9loginUseryySSSg_SDySSypGSgtF",
+            "mangledName": "$s10Growlytics0A3SdkC9loginUseryySSSg_SDySSypGSgtF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl",
@@ -2107,8 +2107,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC10logoutUseryyF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC10logoutUseryyF",
+            "usr": "s:10Growlytics0A3SdkC10logoutUseryyF",
+            "mangledName": "$s10Growlytics0A3SdkC10logoutUseryyF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl",
@@ -2155,8 +2155,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Growlytics13GrowAnalyticsC14updateCustomeryySDySSypGSgF",
-            "mangledName": "$s10Growlytics13GrowAnalyticsC14updateCustomeryySDySSypGSgF",
+            "usr": "s:10Growlytics0A3SdkC14updateCustomeryySDySSypGSgF",
+            "mangledName": "$s10Growlytics0A3SdkC14updateCustomeryySDySSypGSgF",
             "moduleName": "Growlytics",
             "declAttributes": [
               "AccessControl",
@@ -2166,8 +2166,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:10Growlytics13GrowAnalyticsC",
-        "mangledName": "$s10Growlytics13GrowAnalyticsC",
+        "usr": "s:10Growlytics0A3SdkC",
+        "mangledName": "$s10Growlytics0A3SdkC",
         "moduleName": "Growlytics",
         "declAttributes": [
           "AccessControl"
@@ -7311,142 +7311,142 @@
       "value": "\"Failed to parse deviceInfo.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "BooleanLiteral",
-      "offset": 366,
+      "offset": 384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 730,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 877,
       "length": 50,
       "value": "\"Lifecycle callbacks have already been registered\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "BooleanLiteral",
-      "offset": 967,
+      "offset": 985,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1518,
       "length": 13,
       "value": "\"Application\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 1524,
+      "offset": 1542,
       "length": 44,
       "value": "\"Lifecycle Callback successfully registered\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2045,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 2181,
+      "offset": 2199,
       "length": 52,
       "value": "\"Application instance is null\/system API is too old\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2365,
       "length": 50,
       "value": "\"Lifecycle callbacks have already been registered\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "BooleanLiteral",
-      "offset": 2455,
+      "offset": 2473,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3109,
+      "offset": 3127,
       "length": 13,
       "value": "\"Application\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3151,
       "length": 44,
       "value": "\"Lifecycle Callback successfully registered\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3267,
+      "offset": 3285,
       "length": 19,
       "value": "\"On Created called\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3581,
+      "offset": 3599,
       "length": 21,
       "value": "\"On Created finished\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 3708,
       "length": 19,
       "value": "\"On Resumed called\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3757,
+      "offset": 3775,
       "length": 26,
       "value": "\"scheduleQueueResumeFlush\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "FloatLiteral",
-      "offset": 3829,
+      "offset": 3847,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 3955,
+      "offset": 3973,
       "length": 21,
       "value": "\"On Resumed finished\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 4063,
+      "offset": 4081,
       "length": 18,
       "value": "\"On Paused called\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsCallback.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsLifeCycleCallback.swift",
       "kind": "StringLiteral",
-      "offset": 4177,
+      "offset": 4195,
       "length": 20,
       "value": "\"On Paused finished\""
     },
@@ -11588,196 +11588,196 @@
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 11,
       "value": "\"Analytics\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 44,
       "value": "\"Analytics Instance is already initialized.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 1562,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 1882,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 2939,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 3249,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 3581,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 3946,
       "length": 12,
       "value": "\"CustomerID\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 4051,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 4384,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 4738,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 5013,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 5404,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 5568,
       "length": 40,
       "value": "\"Instance is null in onActivityResumed!\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 5856,
       "length": 11,
       "value": "\"PauseTime\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 6033,
       "length": 66,
       "value": "\"Time Difference between pause and resume: \""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 6093,
       "length": 4,
       "value": "\" mins\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "IntegerLiteral",
       "offset": 6133,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 6215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 6290,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 6445,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 6515,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 6621,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 6785,
       "length": 40,
       "value": "\"Instance is null in onActivityResumed!\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 7082,
       "length": 11,
       "value": "\"PauseTime\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 7186,
       "length": 37,
       "value": "\"Growlytics is disabled from config.\""
     },
     {
-      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowAnalytics.swift",
+      "filePath": "\/Users\/ankitsingh\/Desktop\/Growlytics\/Growlytics\/GrowlyticsSdk.swift",
       "kind": "StringLiteral",
       "offset": 7351,
       "length": 39,

@@ -303,8 +303,8 @@ SWIFT_CLASS_NAMED("CustomerAttributes")
 @end
 
 
-SWIFT_CLASS("_TtC10Growlytics18GrowlyticsCallback")
-@interface GrowlyticsCallback : NSObject
+SWIFT_CLASS("_TtC10Growlytics27GrowlyticsLifeCycleCallback")
+@interface GrowlyticsLifeCycleCallback : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

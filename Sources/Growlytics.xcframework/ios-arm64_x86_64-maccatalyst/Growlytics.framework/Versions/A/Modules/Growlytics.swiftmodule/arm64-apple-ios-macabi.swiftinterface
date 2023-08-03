@@ -45,8 +45,8 @@ extension Growlytics.NotificationResponse {
     @objc set
   }
 }
-@objc @_inheritsConvenienceInitializers public class GrowlyticsCallback : ObjectiveC.NSObject {
-  public static let shared: Growlytics.GrowlyticsCallback
+@objc @_inheritsConvenienceInitializers public class GrowlyticsLifeCycleCallback : ObjectiveC.NSObject {
+  public static let shared: Growlytics.GrowlyticsLifeCycleCallback
   @available(iOS 13.0, *)
   public func register(scene: UIKit.UIScene)
   public func register(application: UIKit.UIApplication)
@@ -61,8 +61,8 @@ extension Growlytics.NotificationResponse {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class GrowAnalytics {
-  public static func getInstance() -> Growlytics.GrowAnalytics
+@_hasMissingDesignatedInitializers public class GrowlyticsSdk {
+  public static func getInstance() -> Growlytics.GrowlyticsSdk
   public func track(eventName: Swift.String)
   public func trackAppInstalled()
   public func trackNotificationReport(action: Swift.String, notificationResponse: [Swift.String : Any])

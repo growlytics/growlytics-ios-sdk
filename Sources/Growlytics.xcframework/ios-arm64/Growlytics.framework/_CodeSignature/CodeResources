@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/Growlytics-Swift.h</key>
 		<data>
-		8c/QvqkgdHrpNruMcygBwzlSizc=
+		jdyTeJk5883LWEvdXGjibOjUckQ=
 		</data>
 		<key>Headers/Growlytics.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		m8Rm4iYtaOD1nc6M6NOeVEbnX9o=
+		dB6otuMVuZTKZ+LIXVW5idmoqlw=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		f0uhHU/UfjrDumVDZ4fWHbqpctM=
+		lze3STD4UIpdwVBPoDK28VvSGRs=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		f0uhHU/UfjrDumVDZ4fWHbqpctM=
+		lze3STD4UIpdwVBPoDK28VvSGRs=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dJeTbKxM47WYQZ8z+fK9MIWwjDg=
+		Efi0vQXRA3q12cIFG96gbwUzQzg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jU4BQuVmbddQFVtACMP5tcchEHALCEt1zbqUfcEXdYA=
+			o37kuD1jm7pVlrOUdM3d9q4R+mNqmgmR6ZbrUcT1I3Q=
 			</data>
 		</dict>
 		<key>Headers/Growlytics.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWEMBXXmDj9ddtdj9ZnLJIZjYlDa5kH16/t6VtpfTso=
+			PyFOmOgogXBcPBNuYRloDaeJfrXvtGW34jUKqDuEmXo=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qdd1ShGICziwuqjow8czJiFyvSUlDpVLoq+Ah/DDsJU=
+			uu+g9c8dbSKjPULe9RnExgpIwz9IP2UVEFr+SpBlOuw=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qdd1ShGICziwuqjow8czJiFyvSUlDpVLoq+Ah/DDsJU=
+			uu+g9c8dbSKjPULe9RnExgpIwz9IP2UVEFr+SpBlOuw=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dyapTDWjiX+lxRraIymnZHMi8okGW72axe2e8UUOs0M=
+			aBDVbVpdsMmiJjKKHPCT+BM1Qn5XgeUfu+b5UeXu6T8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
