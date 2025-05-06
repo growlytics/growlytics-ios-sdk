@@ -2,7 +2,8 @@
 //  Growlytics.h
 //  Growlytics
 //
-//  Created by Ankit Singh  on 31/05/23.
+//  Created by Pradeep Singh on 04/03/20.
+//  Copyright © 2020 Growlytics Technologies Pvt Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

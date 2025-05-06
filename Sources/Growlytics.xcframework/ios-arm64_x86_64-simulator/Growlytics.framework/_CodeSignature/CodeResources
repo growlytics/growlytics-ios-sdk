@@ -4,176 +4,154 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Growlytics.momd/Growlytics.mom</key>
-		<data>
-		VNx+X5BXI78/8Gx8TCXC8qBIgSE=
-		</data>
-		<key>Growlytics.momd/VersionInfo.plist</key>
-		<data>
-		Jsp/snpUa98GHbCmB41rWGXJvlY=
-		</data>
 		<key>Headers/Growlytics-Swift.h</key>
 		<data>
-		L4jqhFNESsFTCj6o/oiGiQWYPr8=
+		yRj4X3x7sSR9RA1Lanrix45pRmc=
 		</data>
 		<key>Headers/Growlytics.h</key>
 		<data>
-		Yb6uSNaWZIEmfBcczPIgkiju00Q=
+		VXg1Vtx/D0qMZV0XI5yjiGLgNWc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ENtbcnoQG3C00bRNzZmJBg7bqGQ=
+		b3fL+NE86/JTb9E/N23IYmwm538=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dB6otuMVuZTKZ+LIXVW5idmoqlw=
+		uQ3df9k8gBObod11jj8jwTMYaoE=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0dKP8ToJQmk1nQ+8aBMlFI4/jpg=
+		jS3OfxKnaCtketm6I2X84b1uRpw=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oElPEm1jbeOwNjh+6DX19LK1Bd8=
+		shGCgVDIWdTJ9X5vlgaE5GFsePg=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0dKP8ToJQmk1nQ+8aBMlFI4/jpg=
+		jS3OfxKnaCtketm6I2X84b1uRpw=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T8nnMjCcjSdUBctdynJUI51IcHk=
+		lrbQs98REyNioDBds0ioNcw0/1I=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dB6otuMVuZTKZ+LIXVW5idmoqlw=
+		uQ3df9k8gBObod11jj8jwTMYaoE=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZaEtbd6GH3PGpeeVqAISZDp17+A=
+		SrLcQKwMJNWnD1/gMEPh0knCrB4=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		04TPfpzw7eHN2DekL9u8Y4CFwwI=
+		p4cpkyX5czRvTkLMAweZWqrpgKY=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZaEtbd6GH3PGpeeVqAISZDp17+A=
+		SrLcQKwMJNWnD1/gMEPh0knCrB4=
 		</data>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SPrzsoB+cgndfU+rA5YSW3HOHrs=
+		b5eIgNd9NFiuVoJbQBTYfMla88s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ePMOcZL2gSoyQHmdRGO5IEfwllc=
+		4ES3E0wHdZDXoN2fhg/DoQl3hNg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Growlytics.momd/Growlytics.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+muPZlXdMZUVjGmZ9FE7A1rJy2VGaLeGK2G+B31m92A=
-			</data>
-		</dict>
-		<key>Growlytics.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Yc7eGktDlt1/wjeI5uj9hhx9uvoWvVCFtrmhdNXrt0E=
-			</data>
-		</dict>
 		<key>Headers/Growlytics-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+spk2C1Z/Zt7FrOzZdyfTtjXJ4/JAhCl+M5KzyrX3rM=
+			6x1XqLpeYug45jIRnlRiI5WZq1hIu7h7eGG7A2sfmcQ=
 			</data>
 		</dict>
 		<key>Headers/Growlytics.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ykUSXRRxhF6MFB5/k+iki8iQQlbIRBZ0XPMe5f+GQlQ=
+			ZHAd1srfJHqF7XnqAfg3DHEXcZFmGdPg5zS78d8p94o=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PyFOmOgogXBcPBNuYRloDaeJfrXvtGW34jUKqDuEmXo=
+			TztD7GYNbXM8aTrbe5ZnTH/9HEJNNhstXG2msQT7WYk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7zEZahtktBSmpjcZYGt4L4gfMDsOdI1kI0FVeZsfRhg=
+			2xABlL/cqrYbVkIW1bp1QNRpHAfGleNBbggb3CAF72Q=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhModKe/rD5BPI7omdKMh+qJrAeuMAaKoCxTIWstoFo=
+			69sdsPKd7yjSS2aFZBbR/quLee54ykAVkJM3OmWnlGE=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7zEZahtktBSmpjcZYGt4L4gfMDsOdI1kI0FVeZsfRhg=
+			2xABlL/cqrYbVkIW1bp1QNRpHAfGleNBbggb3CAF72Q=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVTjLGEgFJWQNF6NHUR24lz2bkVj3XN2f0W/GoXGgko=
+			DQqZBmdTPA/KXYU5UUCUkZaG+Vc8y8MKDGkxZeiVNbg=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PyFOmOgogXBcPBNuYRloDaeJfrXvtGW34jUKqDuEmXo=
+			TztD7GYNbXM8aTrbe5ZnTH/9HEJNNhstXG2msQT7WYk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmLZ7HcWAU/sLLTT/ipZlJqWSJSBove4uXVOdlUcFdc=
+			EH+3bzhd7Bl6mVhRBaTHWJ3lE+wKL6HTuVTOlbBDwnk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r54Z2kIfXJJPwMeYoJO7xp1k+oer9I5BACl/2tFUg38=
+			oq3vPaQffO5cSJX1n5Nzs3kCBfEXYjPjF/0adjUK1BA=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmLZ7HcWAU/sLLTT/ipZlJqWSJSBove4uXVOdlUcFdc=
+			EH+3bzhd7Bl6mVhRBaTHWJ3lE+wKL6HTuVTOlbBDwnk=
 			</data>
 		</dict>
 		<key>Modules/Growlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3SlUssf3Q982z1slSRXgwKmYKRbegmsd5yhEs8O2Xmk=
+			Zok4z7daVN+dnv7CJy64UMqxbp6iGqfSzqXpGQ5PjKc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ek+ZeT3jCiQJ/6pRESqKoQ8KJbMwpo37ub4WfHSGb0Q=
+			ljqF+Xu0Mjy+gcTnNknxKQuxp0fDw06/yOHZhn0SG5o=
 			</data>
 		</dict>
 	</dict>
